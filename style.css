@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    overflow: hidden;
+}
+h2{
+    color: whitesmoke;
+    margin-bottom: 30px;
+    font-size: larger;
+    font-style: italic;
+    font-weight: 600;
+}
+h2:hover{
+    box-shadow: 0px 5px 0px 0px rgba(10, 40, 20, 2);
+    transition: 1s ease-in-out;
+
+}
+.centerbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 60%;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.box{
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Boxs */
+.box1{
+    background: url(https://cdn.pixabay.com/photo/2023/02/25/13/18/wolves-7813244_960_720.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box2{
+    background: url(https://cdn.pixabay.com/photo/2012/06/19/10/32/owl-50267_960_720.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box3{
+    background: url(https://cdn.pixabay.com/photo/2019/08/19/07/45/corgi-4415649__340.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box4{
+    background: url(https://cdn.pixabay.com/photo/2017/03/13/10/25/hummingbird-2139278_960_720.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box5{
+    background: url(https://cdn.pixabay.com/photo/2016/05/25/13/55/horses-1414889__340.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box6{
+    background: url(https://cdn.pixabay.com/photo/2017/05/17/12/42/tiger-2320819__340.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box7{
+    background: url(https://cdn.pixabay.com/photo/2017/10/25/16/54/african-lion-2888519__340.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box8{
+    background: url(https://cdn.pixabay.com/photo/2016/12/05/11/39/fox-1883658__340.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box9{
+    background: url(https://cdn.pixabay.com/photo/2015/11/16/14/43/cat-1045782__340.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box10{
+    background: url(https://cdn.pixabay.com/photo/2016/03/28/12/35/cat-1285634__340.png) no-repeat;
+    background-size: cover;
+}
+
+/* hovers */
+.box:hover{
+    width: 100%;
+   transition: 2s ease-in-out;
+   border: 3px solid yellow;
+}
+
